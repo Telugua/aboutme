@@ -2,8 +2,8 @@
 
 ## Repository Links
 
-* [Webpage](https://github.com/Telugua/aboutme/blob/master/README.md)
-*	[Source](https://telugua.github.io/aboutme/)
+* [Webpage](https://telugua.github.io/aboutme/)
+*	[Source](https://github.com/Telugua/aboutme/blob/master/README.md)
 
 ## About
 
