@@ -1,0 +1,62 @@
+.blueclass{
+    color: blue;
+}
+
+/*class*/
+.important{
+    color: brown;
+}
+
+#myname{
+    color: goldenrod;
+    
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+aside{
+    padding-left: 30px;
+    padding-top: 150px;
+    padding-right: 20px;
+
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: auto;
+    min-height: 400px;
+    overflow: hidden;
+  }
+
+hr{
+    
+    border: 1px solid;
+}
+
+header{
+    color: yellowgreen;
+}
+
+.nest{
+    display: flex;
+}
+
+body{
+ background-image: url("images/myimage.jpg");
+ 
+}
+
+.first{
+        color: black;
+        width: 300px;
+        border: 5px solid rgb(11, 12, 11);
+}
+
+h2{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
