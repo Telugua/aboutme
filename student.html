@@ -57,16 +57,16 @@
     <section class="col-md-9">
         <h4>Enter the number</h4>
     <p>
-        <label>Number</label>
-        <input id="inputnumber" type="number" 
+        <label>Enter the Number</label>
+        <input id="inputnumber" type="text" 
         oninput="cube(this.value)" onchange="cube(this.value)">
     </p>
     </section>
 
     <section class="col-md-9">
-        <h4>cuberoot of the above number is : </h4>
+        <h4>cube of the above number is : </h4>
     
-        <p>cube of a number<span id="output"></span></p>
+        <p> cube of a number = <span id="output"></span></p>
     </section>
 
     </article>
@@ -75,6 +75,17 @@
 
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 <hr>
 
@@ -86,8 +97,11 @@
 
 <script>
     function cube(valNum) {
-      document.getElementById("output").innerHTML=valNum*valNum*valNum;
-     
+        const num=parseFloat(document.getElementById("inputnumber").value);
+    if(valNum<0)
+        alert("value cannot be negative");
+    else
+      document.getElementById("output").innerHTML=num*num*num;
     }
 </script>
 
